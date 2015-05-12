@@ -1,0 +1,36 @@
+.hole {
+	width: 150px;
+	height: 120px;
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	margin: 1px;
+	float: left;
+}
+
+#board {
+	cursor: url(hammer.png), auto;
+	width: 474px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.moleHere {
+	background-image: url('mole.png');
+}
+
+.hole:hover {
+	background-color: pink;
+}
+
+/*
+  You might want to display your holes using display:inline-block here. Or you could float them all left.
+  Either way, they should probably be contained within a wrapper that limits them to 3 per row.
+
+  For step 6, this is also where you should have a class that makes mole.png a background image of whichever hole has the mole.
+*/
+
+
